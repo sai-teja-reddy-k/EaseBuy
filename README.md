@@ -38,21 +38,17 @@ EaseBuy is a modern responsive shopping cart web app developed as part of the Sk
 ## 📸 Screenshots
 
 ### 🏠 Homepage
-![Home](screenshots/home.png)
+![Home](https://raw.githubusercontent.com/sai-teja-reddy-k/EaseBuy/main/home.png)
 
-### 🛍️ Product List
-![Products](screenshots/product-list.png)
+### 🛒 Cart Page
+![Cart](https://raw.githubusercontent.com/sai-teja-reddy-k/EaseBuy/main/cartpage.png)
 
-### 🛒 Cart
-![Cart](screenshots/cart.png)
+### 🛍️ Products Page
+![Products](https://raw.githubusercontent.com/sai-teja-reddy-k/EaseBuy/main/products.png)
 
-### 💳 Checkout
-![Checkout](screenshots/checkout.png)
+### 👤 Login/Register Page
+![Login](https://raw.githubusercontent.com/sai-teja-reddy-k/EaseBuy/main/loginpage.png)
 
-### 👤 Login/Register
-![Login](screenshots/login.png)
-
-### ✅ Order Confirmation
-![Order Success](screenshots/order-success.png)
-
+### 👤 Profile Page
+![Profile](https://raw.githubusercontent.com/sai-teja-reddy-k/EaseBuy/main/profilepage.png)
 
