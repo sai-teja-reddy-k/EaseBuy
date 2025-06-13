@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EaseBuy | Cart</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="main-header">
+  <h1>🛒 EaseBuy</h1>
+  <nav class="navbar">
+    <a href="index.html">Home</a>
+    <a href="product.html">Products</a>
+    <a href="cart.html">Cart</a>
+    <a href="profile.html">Profile</a>
+    <a href="login.html">Login</a>
+  </nav>
+</header>
+
+  <main class="cart-container">
+    <div id="cartItems" class="cart-items">
+      <!-- Cart items injected by JS -->
+    </div>
+
+    <div class="cart-summary">
+      <h3>Summary</h3>
+      <p>Subtotal: ₹<span id="subtotal">0</span></p>
+      <p>Shipping: ₹<span id="shipping">50</span></p>
+      <hr>
+      <h3>Total: ₹<span id="total">0</span></h3>
+      <button class="btn checkout-btn">Proceed to Checkout</button>
+    </div>
+  </main>
+
+  <script src="js/cart.js"></script>
+</body>
+</html>

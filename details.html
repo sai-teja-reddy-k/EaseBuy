@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EaseBuy | Product Details</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+ <header class="main-header">
+  <h1>🛒 EaseBuy</h1>
+  <nav class="navbar">
+    <a href="index.html">Home</a>
+    <a href="product.html">Products</a>
+    <a href="cart.html">Cart</a>
+    <a href="profile.html">Profile</a>
+    <a href="login.html">Login</a>
+  </nav>
+</header>
+
+
+  <main class="product-details">
+    <div class="image-box">
+      <img src="images/watch.jpg" alt="Smart Watch" id="productImage">
+    </div>
+    <div class="details-box">
+      <h2 id="productName">Smart Watch</h2>
+      <p id="productDesc">Waterproof fitness smart watch with heart rate monitoring</p>
+      <p class="price">₹<span id="productPrice">2499</span></p>
+      <p>⭐ Rating: <span id="productRating">4.5</span></p>
+      <p>🟢 In Stock</p>
+
+      <label for="size">Size:</label>
+      <select id="size">
+        <option>S</option><option>M</option><option>L</option>
+      </select>
+
+      <label for="quantity">Quantity:</label>
+      <input type="number" min="1" value="1" id="quantity"/>
+
+      <div class="button-row">
+        <button class="btn">Add to Cart</button>
+        <button class="btn buy-btn">Buy Now</button>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 EaseBuy</p>
+  </footer>
+</body>
+</html>

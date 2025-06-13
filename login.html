@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EaseBuy | Login/Register</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+
+<header class="main-header">
+  <h1>🛒 EaseBuy</h1>
+  <nav class="navbar">
+    <a href="index.html">Home</a>
+    <a href="product.html">Products</a>
+    <a href="cart.html">Cart</a>
+    <a href="profile.html">Profile</a>
+    <a href="login.html">Login</a>
+  </nav>
+</header>
+
+
+    <main class="auth-container">
+    <div class="auth-tabs">
+      <button class="tab-btn active" onclick="showTab('login')">🔐 Login</button>
+      <button class="tab-btn" onclick="showTab('register')">📝 Register</button>
+    </div>
+
+    <div id="login" class="auth-tab active">
+      <h2>Login</h2>
+      <input type="email" placeholder="Email" required>
+      <input type="password" placeholder="Password" required>
+      <button class="btn">Login</button>
+    </div>
+
+    <div id="register" class="auth-tab">
+      <h2>Register</h2>
+      <input type="text" placeholder="Full Name" required>
+      <input type="email" placeholder="Email" required>
+      <input type="password" placeholder="Password" required>
+      <button class="btn">Register</button>
+    </div>
+  </main>
+
+  <script>
+    function showTab(tabId) {
+      document.querySelectorAll('.auth-tab').forEach(t => t.classList.remove('active'));
+      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      document.getElementById(tabId).classList.add('active');
+      event.target.classList.add('active');
+    }
+  </script>
+</body>
+</html>

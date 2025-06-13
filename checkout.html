@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EaseBuy | Checkout</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+ <header class="main-header">
+  <h1>🛒 EaseBuy</h1>
+  <nav class="navbar">
+    <a href="index.html">Home</a>
+    <a href="product.html">Products</a>
+    <a href="cart.html">Cart</a>
+    <a href="profile.html">Profile</a>
+    <a href="login.html">Login</a>
+  </nav>
+</header>
+
+
+  <main class="checkout-container">
+    <form class="checkout-form">
+      <h3>Shipping Information</h3>
+      <input type="text" placeholder="Full Name" required>
+      <input type="email" placeholder="Email Address" required>
+      <input type="text" placeholder="Shipping Address" required>
+      <input type="text" placeholder="City" required>
+      <input type="text" placeholder="Pincode" required>
+
+      <h3>Payment Method</h3>
+      <label><input type="radio" name="payment" checked> Cash on Delivery</label>
+      <label><input type="radio" name="payment"> UPI</label>
+      <label><input type="radio" name="payment"> Debit/Credit Card</label>
+
+      <button type="submit" class="btn order-btn">Place Order</button>
+    </form>
+
+    <aside class="checkout-summary">
+      <h3>Order Summary</h3>
+      <p>Items Total: ₹4298</p>
+      <p>Shipping: ₹50</p>
+      <hr>
+      <h3>Grand Total: ₹4348</h3>
+    </aside>
+  </main>
+
+  <footer>
+    <p>© 2025 EaseBuy</p>
+  </footer>
+</body>
+</html>
